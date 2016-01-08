@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor=[UIColor greenColor];
+    NSLog(@"我改变了北影颜色");
     
 }
 -(void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event{
